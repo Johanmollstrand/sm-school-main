@@ -1,0 +1,237 @@
+/* Updated Services.css */
+
+:root {
+  --main-color: #3498db;
+  --secondary-color: #16456c;
+  --card-bg-color: #ffffff;
+  --text-color: #333;
+  --header-bg-color: #f4f4f4;
+  --border-color: #ddd;
+  --button-bg-color: #3498db;
+  --button-hover-bg-color: #2980b9;
+  --gradient-bg: linear-gradient(135deg, #3498db, #2c3e50);
+}
+
+.services-container {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  padding: 20px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 0;
+  background: var(--header-bg-color);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.service-cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  background: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: var(--main-color);
+}
+
+.card p {
+  font-size: 1rem;
+  padding: 0 15px;
+  color: var(--text-color);
+}
+
+.card .button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: none;
+  background: var(--button-bg-color);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card .button:hover {
+  background: var(--button-hover-bg-color);
+}
+
+.pricing-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.pricing-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pricing-divider::before,
+.pricing-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pricing-divider h2 {
+  margin: 0 20px;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.pricing-cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pricing-card {
+  height: 500px;
+  background: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card .price-banner {
+  background: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin: 60px 0 10px;
+  color: var(--text-color);
+  padding: 10px;
+}
+
+.pricing-card .details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pricing-card .details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.pricing-card .apply-button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background: var(--button-bg-color);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pricing-card .apply-button:hover {
+  background: var(--button-hover-bg-color);
+}
+.services-slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.services-slider .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.services-slider .slide {
+  min-width: 50%; /* Adjust the width to make the photo smaller */
+  max-width: 10%; /* Adjust the width to make the photo smaller */
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-slider .slide img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .card,
+  .pricing-card {
+    width: 100%;
+  }
+}
+
+.services-slider {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.services-slider .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.services-slider .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
