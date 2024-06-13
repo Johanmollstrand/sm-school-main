@@ -26,10 +26,10 @@ const Home = () => {
         <div className="steps-container">
           <div className="step">1. Planera din start</div>
           <div className="step">2. Synkontroll</div>
-          <div className="step">3. Ansöka om körkorttillstånd</div>
+          <div className="step">3. Ansöka om körkortstillstånd</div>
           <div className="step">4. Kursinnehåll</div>
-          <div className="step">5. Teoeriska och praktiska sessioner</div>
-          <div className="step">6. Utfädering och körprov</div>
+          <div className="step">5. Teoretiska och praktiska sessioner</div>
+          <div className="step">6. Utvädering och körprov</div>
         </div>
         <div className="line-container">
           <div className="line"></div>
