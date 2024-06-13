@@ -24,10 +24,10 @@ const Home = () => {
       <div className="moving-line-section">
         <h2>Din resa mot körkortet</h2>
         <div className="steps-container">
-          <div className="step">1. Planera din start</div>
-          <div className="step">2. Synkontroll</div>
-          <div className="step">3. Ansöka om körkortstillstånd</div>
-          <div className="step">4. Kursinnehåll</div>
+          <div className="step">1. Planera din start(synkontroll och körkortstillstånd)</div>
+          <div className="step">2. Kursinnehåll</div>
+          <div className="step">3. Teoretiska och praktiska sessioner</div>
+          <div className="step">4. Utvärdering och körprov</div>
 
         </div>
         <div className="line-container">
