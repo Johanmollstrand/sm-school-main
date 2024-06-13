@@ -16,18 +16,20 @@ const Home = () => {
           <p className="hero-description">
           VI ÄR DET SJÄLVKLARA VALET NÄR DU SKA TA KÖRKORT
           </p>
-          <button className="hero-button">Get Started</button>
+          <button className="hero-button">Erbjudande</button>
         </div>
       </section>
 
       {/* Moving Line Section */}
       <div className="moving-line-section">
-        <h2>Progress Steps</h2>
+        <h2>Din resa mot körkortet</h2>
         <div className="steps-container">
-          <div className="step">1. Contact</div>
-          <div className="step">2. Study</div>
-          <div className="step">3. Training</div>
-          <div className="step">4. Pass</div>
+          <div className="step">1. Planera din start</div>
+          <div className="step">2. Synkontroll</div>
+          <div className="step">3. Ansöka om körkorttillstånd</div>
+          <div className="step">4. Kursinnehåll</div>
+          <div className="step">5. Teoeriska och praktiska sessioner</div>
+          <div className="step">6. Utfädering och körprov</div>
         </div>
         <div className="line-container">
           <div className="line"></div>
@@ -36,22 +38,10 @@ const Home = () => {
 
       <section className="second-section">
         <div className="second-section-text">
-          <h2 className="second-section-title">About Us</h2>
-          <p className="second-section-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-            quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
-            mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
-            Vestibulum lacinia arcu eget nulla. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
-            cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
-            imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus
-            sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
-            nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed
-            nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
-            ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-            Mauris massa. Vestibulum lacinia arcu eget nulla.
+          <h2 className="second-section-title">Är det dags att ta körkort?</h2>
+          <p className="second-section-description"> Då kan du vara säker på att Möllstrands Trafikskola är rätt val för dig. Vi hjälper dig från första till sista steget för ditt körkort. Hos oss får du alltid bästa möjliga service. Vi erbjuder en omfattande utbildning för körkort behörighet B, inklusive Handledarkurser, Riskettan, Risk tvåan och Intensivkurser. Våra kompetenta och trevliga trafiklärare står redo att ta emot dig. Så varmt välkommen till oss!
+Våra erfarna och engagerade utbildare har en gedigen kunskap om trafiksäkerhet och pedagogik. De brinner för att hjälpa dig att nå dina mål och att du ska känna dig trygg och säker i trafiken. Vi erbjuder en personlig och individanpassad utbildning som tar hänsyn till dina behov och din inlärningsstil.
+
           </p>
         </div>
         <div className="second-section-svg">
@@ -62,11 +52,9 @@ const Home = () => {
       <section className="third-section">
         <div className="third-section-overlay"></div>
         <div className="third-section-content">
-          <h2 className="third-section-title">Why Choose Us</h2>
+          <h2 className="third-section-title">Därför bör du välja just Möllstrands Trafikskola</h2>
           <p className="third-section-description">
-            Discover the reasons why our services stand out in the industry. We
-            provide tailored solutions, exceptional support, and a commitment to
-            excellence that ensures your success.
+          Erfarenheten har lärt oss hur viktigt det är att skapa engagemang och drivkraft hos vår personal för att kunna bli bäst på det vi gör. Dessutom har vår vilja att prestera sin grund i värderingar som har utvecklats över tid. Dessa värderingar har skapat en röd tråd som genomsyrar hela vår verksamhet. Det är precis denna sammanhängande kultur som utmärker vårt företag och som kontinuerligt får oss att växa och förbättra oss!
           </p>
         </div>
       </section>
@@ -74,33 +62,37 @@ const Home = () => {
       <section className="fourth-section">
         <div className="fourth-section-overlay"></div>
         <div className="fourth-section-content">
-          <h2 className="fourth-section-title">Our Vision</h2>
+          <h2 className="fourth-section-title">Vår vision</h2>
           <p className="fourth-section-description">
-            Our vision is to revolutionize the industry with innovative
-            solutions and unparalleled service. We strive to exceed expectations
-            and drive success for our clients through our commitment to
-            excellence.
+          Att bli den mest betrodda och respekterade trafikskolan och dess omnejd, känd för vårt engagemang för trafiksäkerhet, högkvalitativ utbildning och exceptionell kundservice.
           </p>
           <div className="cards">
             <div className="card">
               <FaBullseye className="card-icon" />
-              <h3 className="card-title">Precision</h3>
+              <h3 className="card-title">Säkerhet</h3>
               <p className="card-description">
-                We aim for precise results in every project we undertake.
+              Vi sätter alltid trafiksäkerheten i första hand och strävar efter att utbilda förare som är väl förberedda för att hantera alla utmaningar på vägarna.
               </p>
             </div>
             <div className="card">
               <FaChartLine className="card-icon" />
-              <h3 className="card-title">Growth</h3>
+              <h3 className="card-title">Kvalitet</h3>
               <p className="card-description">
-                Our strategies ensure consistent growth for our clients.
+              Vi levererar konsekvent högkvalitativ utbildning med fokus på individuella behov och inlärningsstilar.
               </p>
             </div>
             <div className="card">
               <FaHandsHelping className="card-icon" />
-              <h3 className="card-title">Support</h3>
+              <h3 className="card-title">Engagemang</h3>
               <p className="card-description">
-                We offer unwavering support to our clients at every step.
+              Vi levererar konsekvent högkvalitativ utbildning med fokus på individuella behov och inlärningsstilar.
+              </p>
+            </div>
+            <div className="card">
+              <FaHandsHelping className="card-icon" />
+              <h3 className="card-title">Tillgänglighet</h3>
+              <p className="card-description">
+              Vi erbjuder flexibla och prisvärda utbildningsalternativ som passar alla behov.
               </p>
             </div>
           </div>
@@ -110,12 +102,10 @@ const Home = () => {
       <section className="grid-section">
         <div className="grid-item grid-item-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-            recusandae, minus fugit illum explicabo reiciendis aliquam placeat.
-            Fugit nobis nostrum ducimus quibusdam iusto omnis ipsum sint ut ad
-            nemo quis, atque necessitatibus autem voluptatum dolore placeat,
-            nesciunt odit adipisci distinctio eos aperiam, illo illum.
-            Blanditiis molestiae illo fugiat error commodi.
+          <h3>En professionell körkortsutbildning hos Möllstrands Trafikskola!</h3> 
+          Vi erbjuder flexibla alternativ för att uppnå ditt körkort. Du kan välja mellan enstaka lektioner, förmånliga paketlösningar eller intensiva kurser. Oavsett vilket upplägg du föredrar, är vi här för att guida dig. Dessutom tar vi hand om bokningen av ditt kunskapsprov och körprov på Trafikverket.
+Välkommen att kontakta Möllstrands Trafikskola, din pålitliga körskola. Vi är alltid tillgängliga och redo att hjälpa dig att nå ditt mål.”
+
           </p>
         </div>
         <div className="grid-item">
@@ -126,12 +116,10 @@ const Home = () => {
         </div>
         <div className="grid-item grid-item-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-            quos quam perspiciatis corrupti exercitationem debitis praesentium
-            provident ratione harum eum aliquam atque reiciendis, sit earum
-            repellat odio fugit saepe quidem cupiditate nesciunt. Molestiae
-            velit cupiditate fuga omnis voluptatibus saepe reprehenderit unde
-            quam. Nulla qui accusantium, esse ipsa aperiam similique labore?
+          
+        <h3>Vägen till ditt körkort börjar hos oss!</h3>
+På Möllstrands Trafikskola erbjuder vi en kvalificerad och professionell körkortsutbildning som ger dig allt du behöver för att ta ditt efterlängtade körkort. Vi brinner för trafiksäkerhet och strävar efter att ge dig den bästa möjliga utbildningen för att du ska känna dig trygg och säker i trafiken.
+
           </p>
         </div>
       </section>
