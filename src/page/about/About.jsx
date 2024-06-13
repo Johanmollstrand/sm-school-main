@@ -69,7 +69,7 @@ const About = () => {
 
       {/* How It Works Section */}
       <div className="how-it-works-section">
-        <h2>How It Works</h2>
+        <h2>Om oss</h2>
         <div className="cards-container">
           {howItWorks.map((item, index) => (
             <div key={index} className="card">
@@ -84,19 +84,19 @@ const About = () => {
       {/* Numbers Section */}
       <div className="numbers-section">
         <div className="number">
-          <h3> + Clients</h3>
-          <p>
-            <CountUp start={0} end={1800} duration={3} />
-          </p>
-        </div>
-        <div className="number">
-          <h3>+ Success Rate</h3>
+          <h3>Säkerhet</h3>
           <p>
             <CountUp start={0} end={100} duration={3} />
           </p>
         </div>
         <div className="number">
-          <h3>+ Quality</h3>
+          <h3>Anpassad efter dina behov</h3>
+          <p>
+            <CountUp start={0} end={100} duration={3} />
+          </p>
+        </div>
+        <div className="number">
+          <h3>Kvalite</h3>
           <p>
             <CountUp start={0} end={100} duration={3} />
           </p>
