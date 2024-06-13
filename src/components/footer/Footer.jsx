@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <FooterContainer>
       <QuickLinks>
-        <FooterLink href="#">Privacy Policy</FooterLink>
-        <FooterLink href="#">Terms of Service</FooterLink>
+        <FooterLink href="#">Vår Policy</FooterLink>
+        <FooterLink href="#">Vilkor</FooterLink>
       </QuickLinks>
       <SocialMedia>
         <SocialMediaIcon href="https://www.facebook.com/people/M%C3%B6llstrands-Trafikskola/61559963756477/">
@@ -21,8 +21,8 @@ const Footer = () => {
         </SocialMediaIcon>
       </SocialMedia>
       <NewsletterSignup>
-        <NewsletterInput type="email" placeholder="Your email" />
-        <SignupButton>Subscribe</SignupButton>
+        <NewsletterInput type="email" placeholder="Din e-mail" />
+        <SignupButton>Skicka</SignupButton>
       </NewsletterSignup>
     </FooterContainer>
   );
