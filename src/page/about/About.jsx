@@ -14,12 +14,13 @@ import "./About.css";
 const About = () => {
   const teamMembers = [
     {
-      name: "John Doe",
+      name: "Johan Möllstrand",
+  
       photo: photo1,
       social: { facebook: "#", twitter: "#", linkedin: "#" },
     },
     {
-      name: "Jane Smith",
+      name: "Nahwand Mamo",
       photo: photo1,
       social: { facebook: "#", twitter: "#", linkedin: "#" },
     },
@@ -48,7 +49,7 @@ const About = () => {
       {/* Hero Section */}
       <div className="hero-section">
         <ReactTypingEffect
-          text={["WELCOME TO US"]}
+          text={["Välkommen till Möllstrands Trafikskola"]}
           speed={100}
           eraseSpeed={50}
           typingDelay={500}
