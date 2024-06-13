@@ -12,9 +12,9 @@ const Home = () => {
       <section className="hero">
         <video className="hero-video" src={heroVideo} autoPlay loop muted />
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to Our Website</h1>
+          <h1 className="hero-title">Möllstrands Trafikskola</h1>
           <p className="hero-description">
-            We provide amazing services to boost your business.
+          VI ÄR DET SJÄLVKLARA VALET NÄR DU SKA TA KÖRKORT
           </p>
           <button className="hero-button">Get Started</button>
         </div>
