@@ -9,10 +9,10 @@ const Footer = () => {
         <FooterLink href="#">Terms of Service</FooterLink>
       </QuickLinks>
       <SocialMedia>
-        <SocialMediaIcon href="https://www.facebook.com">
+        <SocialMediaIcon href="https://www.facebook.com/people/M%C3%B6llstrands-Trafikskola/61559963756477/">
           <FaFacebookF />
         </SocialMediaIcon>
-        <SocialMediaIcon href="https://www.twitter.com">
+        <SocialMediaIcon href="https://www.tiktok.com/@mollstrandstrafikskola?_t=8nAcUzO8bA0&_r=1">
           <FaTwitter />
         </SocialMediaIcon>
         <SocialMediaIcon href="https://www.instagram.com">
@@ -20,7 +20,7 @@ const Footer = () => {
         </SocialMediaIcon>
       </SocialMedia>
       <NewsletterSignup>
-        <NewsletterInput type="email" placeholder="Your email" />
+        <NewsletterInput type="email" placeholder="Kontakt@mollstrands.com" />
         <SignupButton>Subscribe</SignupButton>
       </NewsletterSignup>
     </FooterContainer>
