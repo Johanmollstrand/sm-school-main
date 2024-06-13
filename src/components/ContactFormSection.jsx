@@ -3,25 +3,25 @@ import styled from "styled-components";
 const ContactFormSection = () => {
   return (
     <FormContainer>
-      <SectionTitle>Send Us a Message</SectionTitle>
+      <SectionTitle>Skicka meddelande till oss</SectionTitle>
       <Form>
         <FormGroup>
-          <Label htmlFor="name">Name</Label>
+          <Label htmlFor="name">Namn</Label>
           <Input type="text" id="name" name="name" required />
         </FormGroup>
         <FormGroup>
-          <Label htmlFor="email">Email</Label>
+          <Label htmlFor="email">E-mail</Label>
           <Input type="email" id="email" name="email" required />
         </FormGroup>
         <FormGroup>
-          <Label htmlFor="phone">Phone</Label>
+          <Label htmlFor="phone">Mobil</Label>
           <Input type="tel" id="phone" name="phone" required />
         </FormGroup>
         <FormGroup>
-          <Label htmlFor="message">Message</Label>
+          <Label htmlFor="message">Meddelande</Label>
           <Textarea id="message" name="message" rows="4" required></Textarea>
         </FormGroup>
-        <SubmitButton type="submit">Submit</SubmitButton>
+        <SubmitButton type="submit">Skicka</SubmitButton>
       </Form>
     </FormContainer>
   );

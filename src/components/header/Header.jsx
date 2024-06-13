@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <Nav>
-      <Logo>Traffic School</Logo>
+      <Logo>Möllstrands Trafikskola </Logo>
       <MenuIcon onClick={toggleMenu}>
         <FaBars />
       </MenuIcon>

@@ -3,19 +3,19 @@ import styled from "styled-components";
 const ContactInfoSection = () => {
   return (
     <ContactContainer>
-      <SectionTitle>Contact Us</SectionTitle>
+      <SectionTitle>Kontakta oss</SectionTitle>
       <ContactDetails>
         <DetailItem>
           <DetailTitle>Address</DetailTitle>
-          <DetailText>123 Traffic School Lane, City, State, ZIP</DetailText>
+          <DetailText>Fågelsångsgatan 6 26435 Klippan</DetailText>
         </DetailItem>
         <DetailItem>
-          <DetailTitle>Phone</DetailTitle>
-          <DetailText>(123) 456-7890</DetailText>
+          <DetailTitle>Mobil</DetailTitle>
+          <DetailText>072-298 24 57</DetailText>
         </DetailItem>
         <DetailItem>
-          <DetailTitle>Email</DetailTitle>
-          <DetailText>info@trafficschool.com</DetailText>
+          <DetailTitle>E-mail</DetailTitle>
+          <DetailText>kontakt@mollstrands.com</DetailText>
         </DetailItem>
       </ContactDetails>
     </ContactContainer>
