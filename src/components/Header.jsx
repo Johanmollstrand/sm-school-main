@@ -18,22 +18,22 @@ const Header = () => {
       </MenuIcon>
       <Menu isOpen={isOpen}>
         <MenuItem>
-          <StyledLink to="/">Home</StyledLink>
+          <StyledLink to="/">Hem</StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/about">About</StyledLink>
+          <StyledLink to="/about">Om oss</StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/services">Services</StyledLink>
+          <StyledLink to="/services">Tjänster</StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/contact">Contact</StyledLink>
+          <StyledLink to="/contact">Kontakt</StyledLink>
         </MenuItem>
         <MenuItem>
           <StyledLink to="/faq">FAQ</StyledLink>
         </MenuItem>
       </Menu>
-      <EnrollButton>Enroll Now</EnrollButton>
+      <EnrollButton>Boka nu</EnrollButton>
     </Nav>
   );
 };
