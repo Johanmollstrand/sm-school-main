@@ -27,12 +27,12 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Our Services
+          Våra tjänster
         </motion.h1>
       </header>
 
       <div className="pricing-divider">
-        <h2>Our Services</h2>
+        <h2>Utbildningar</h2>
       </div>
       <div className="services-slider">
         <div
@@ -48,7 +48,7 @@ const Services = () => {
       </div>
 
       <div className="pricing-divider">
-        <h2>Our Courses</h2>
+        <h2>Utbildingar</h2>
       </div>
 
       <motion.section
@@ -59,35 +59,73 @@ const Services = () => {
       >
         <div className="card">
           <img src={CardImg1} alt="Instructor Training" />
-          <h3>Instructor Training</h3>
+          <h3>Körkort för bil</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered.
+          Vi erbjuder körkortsutbildning för både manuell och automatbil..
           </p>
-          <button className="button">Read More</button>
+          <button className="button">Läs mer</button>
         </div>
         <div className="card">
           <img src={CardImg2} alt="Road Safety Guide" />
-          <h3>Road Safety Guide</h3>
+          <h3>Internsivkurs för bil</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered.
+          Med start varje vecka året runt, boka din utbildning redan idag!
           </p>
-          <button className="button">Read More</button>
+          <button className="button">Läs mer</button>
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
-          <h3>Driving License</h3>
+          <h3>Handledarkurs</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered.
+          Introduktionsutbildning för handledare och elev. På kvällar och helger.
           </p>
-          <button className="button">Read More</button>
+          <button className="button">Läs mer</button>
         </div>
+        <div className="card">
+          <img src={CardImg3} alt="Driving License" />
+          <h3>Riskettan</h3>
+          <p>
+          Riskutbildning del 1 för. Obligatorisk för alla elever som ska ta B-körkort.
+          </p>
+          <button className="button">Läs mer</button>
+        </div>
+        <div className="card">
+          <img src={CardImg3} alt="Driving License" />
+          <h3>Körkortsfrågor</h3>
+          <p>
+          Plugga körkortsteori på elevcentralen. Anpassat för mobil, dator och surfplatta.
+          </p>
+          <button className="button">Läs mer</button>
+        </div>
+        <div className="card">
+          <img src={CardImg3} alt="Driving License" />
+          <h3>Teoriböcker</h3>
+          <p>
+          Komplett teorimaterial för din körkortsutbildning.
+          </p>
+          <button className="button">Läs mer</button>
+        </div>
+        <div className="card">
+          <img src={CardImg3} alt="Driving License" />
+          <h3>Syntest</h3>
+          <p>
+          Kom in till oss på drop in så hjälper vi dig med syntestet till körkortstillståndet.
+          </p>
+          <button className="button">Läs mer</button>
+        </div>
+        <div className="card">
+          <img src={CardImg3} alt="Driving License" />
+          <h3>Språk hjälp</h3>
+          <p>
+          Vi har lärare som talar olika språk, för dig som har lite svårt med svenska. 
+          </p>
+          <button className="button">Läs mer</button>
+        </div>
+        
       </motion.section>
 
       <div className="pricing-divider">
-        <h2>Our Pricing</h2>
+        <h2>Våra priser</h2>
       </div>
 
       <motion.section
@@ -97,37 +135,56 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
       >
         <div className="pricing-card">
-          <div className="price-banner">$200</div>
-          <h3>Beginner Driving Course</h3>
+          <div className="price-banner">Silver paket</div>
+          <h3>Silver paket</h3>
           <div className="details">
-            <p>Duration: 15 Days</p>
-            <p>Lessons: 15</p>
-            <p>Skill Level: Beginner</p>
-            <p>Car Type: Basic Model</p>
+            <p>Teoripaket </p>
+            <p>8 Körlektioner á 40 minuter</p>
+            <p>Riskettan</p>
+            <p>Risktvåan (Halkan)</p>
+            <p>Hyra av bil i samband med uppkörning</p>
           </div>
-          <button className="apply-button">Apply Now</button>
+          <button className="apply-button">Boka nu</button>
         </div>
         <div className="pricing-card">
-          <div className="price-banner">$150</div>
-          <h3>Defensive Driving Course</h3>
+          <div className="price-banner">Guld Paket</div>
+          <h3>Guld paket</h3>
           <div className="details">
-            <p>Duration: 10 Days</p>
-            <p>Lessons: 10</p>
-            <p>Skill Level: Intermediate</p>
-            <p>Car Type: Standard Model</p>
+            <p>Teoripaket</p>
+            <p>16 kör lektioner á 40 minuter</p>
+            <p>Riskettan</p>
+            <p>Risktvåan (Halkan)</p>
+            <p>Hyra av bil i samband med uppkörning
+            </p>
           </div>
-          <button className="apply-button">Apply Now</button>
+          <button className="apply-button">Boka nu</button>
         </div>
         <div className="pricing-card">
-          <div className="price-banner">$100</div>
-          <h3>Refresher Course</h3>
+          <div className="price-banner">Premium paket</div>
+          <h3>Premium paket</h3>
           <div className="details">
-            <p>Duration: 5 Days</p>
-            <p>Lessons: 5</p>
-            <p>Skill Level: Advanced</p>
-            <p>Car Type: Premium Model</p>
+            <p>Teoripaket</p>
+            <p>24 kör lektioner á 40 minuter</p>
+            <p>Riskettan</p>
+            <p>Risktvåan (Halkan)</p>
+            <p>Hyra av bil i samband med uppkörning</p>
           </div>
-          <button className="apply-button">Apply Now</button>
+          <button className="apply-button">Boka nu</button>
+        </div>
+        <div className="pricing-card">
+          <div className="price-banner">Prislista</div>
+          <h3>Våra priser</h3>
+          <div className="details">
+            <p>1 Körlektion á 40min 599: -</p>
+            <p>5 Körlektioner á 40min 2995: -</p>
+            <p>10 Körlektioner á 40min 5990: -</p>
+            <p>Introduktionsutbildning 399: -</p>
+            <p>​Riskutbildning 1 (Riskettan) 750: –</p>
+            <p>Riskutbildning 2 (Halkan) 2300: –</p>
+            <p>Uppkörningsavgift
+            ​Uppvärmningslektion & hyra av bil 1400:–</p>
+          </div>
+        
         </div>
       </motion.section>
     </div>
