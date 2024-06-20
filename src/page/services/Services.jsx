@@ -85,7 +85,7 @@ const Services = () => {
           <img src={CardImg3} alt="Driving License" />
           <h3>Riskettan</h3>
           <p>
-          Riskutbildning del 1 för. Obligatorisk för alla elever som ska ta B-körkort.
+          Riskutbildning del 1. Obligatorisk för alla elever som ska ta B-körkort.
           </p>
           <button className="button">Läs mer</button>
         </div>
