@@ -10,40 +10,53 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What are the requirements to enroll?",
+      question: "HUR ANSÖKER MAN OM KÖRKORTSTILLSTÅND?",
       answer:
-        "You need to be at least 16 years old and have a learner's permit.",
+        "Du kan ansöka om körkortstillstånd på Transportstyrelsen's hemsida",
     },
     {
-      question: "What is the duration of the courses?",
+      question: "KAN MAN BÖRJA ÖVNINGSKÖRA PRIVAT DIREKT EFTER VI GÅTT HANDLEDARUTBILDNINGEN?",
       answer:
-        "Course durations vary from 2 weeks to 2 months depending on the program.",
+        "Nej, du måste ansöka om handledarskap innan ni kan börja köra och det gör du online på Transportstyrelsen's hemsida",
     },
     {
-      question: "What are the requirements to enroll?",
+      question: "HAR MIN KURS/TILLSTÅND GÅTT UT?",
       answer:
-        "You need to be at least 16 years old and have a learner's permit.",
+        "Du kan logga in på mina sidor på transportstyrelsen.se för att se dina giltiga kurser och tillstånd.",
     },
     {
-      question: "What is the duration of the courses?",
+      question: "HUR MÅNGA LEKTIONER MÅSTE JAG TA FÖR ATT KLARA KÖRKORTET?",
       answer:
-        "Course durations vary from 2 weeks to 2 months depending on the program.",
+        "Det finns ingen exakt siffra. Det beror på hur fort du lär dig, hur ofta du kör och vilka kunskaper du har sen innan. Du är alltid välkommen att fråga din lärare i samband med en lektion för att få en rekommendation.",
     },
     {
-      question: "What are the requirements to enroll?",
+      question: "NÄR SKA JAG GÅ PÅ RISKKURSERNA? (RISK 1 OCH RISK 2)",
       answer:
-        "You need to be at least 16 years old and have a learner's permit.",
+        "Riskettan kan du göra i början av din utbildning. Risktvåan görs med fördel i slutet av din utbildning. Risk 2 måste ha din lärares godkännande innan den bokas.",
     },
     {
-      question: "What is the duration of the courses?",
+      question: "KAN JAG BLI HÄMTAD OCH LÄMNAD TILL KÖRNINGEN? BETYDER DET ATT DET DRAS PÅ MIN KÖRTID DÅ ELLER?",
       answer:
-        "Course durations vary from 2 weeks to 2 months depending on the program.",
+        "Ja, vi kan hämta eller lämna dig, men den tid det tar för din lärare att hämta och lämna dig räknas som en del av din totala körtid.",
     },
+    
+    {
+      question: "VAD HÄNDER OM JAG MISSAR EN LEKTION?",
+      answer:
+        "Om du missar en lektion så kommer du debiteras för den om inte sjukintyg eller annat skäligt intyg kan lämnas.",
+    },
+    
+    {
+      question: "HUR KAN JAG BOKA LEKTIONER?",
+      answer:
+        "Du kan boka lektioner genom att ringa till oss eller besöka vår kontor. Adresser och telefonnummer finns under Kontakta Oss",
+    },
+    
   ];
 
   return (
     <FAQContainer>
-      <SectionTitle>Frequently Asked Questions</SectionTitle>
+      <SectionTitle>Vanliga frågor</SectionTitle>
       <FAQList>
         {faqs.map((faq, index) => (
           <FAQItem key={index}>
