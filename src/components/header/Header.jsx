@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { FaBars } from "react-icons/fa"; // Icon for the mobile menu toggle
+import { FaBars } from "react-icons/fa";
+import logo from "../../assets/imgs/möllstrands.svg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -10,27 +11,45 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Nav>
-      <Logo>Möllstrands Trafikskola </Logo>
+      <Logo>
+        <Link to="/">
+          <img src={logo} alt="Möllstrands Trafikskola Logo" />
+        </Link>
+      </Logo>
       <MenuIcon onClick={toggleMenu}>
         <FaBars />
       </MenuIcon>
       <Menu isOpen={isOpen}>
         <MenuItem>
-          <StyledLink to="/">Hem</StyledLink>
+          <StyledLink to="/" onClick={closeMenu}>
+            Hem
+          </StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/about">Om oss</StyledLink>
+          <StyledLink to="/about" onClick={closeMenu}>
+            Om oss
+          </StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/services">Tjänster</StyledLink>
+          <StyledLink to="/services" onClick={closeMenu}>
+            Tjänster
+          </StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/contact">Kontakt</StyledLink>
+          <StyledLink to="/contact" onClick={closeMenu}>
+            Kontakt
+          </StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/faq">FAQ</StyledLink>
+          <StyledLink to="/faq" onClick={closeMenu}>
+            FAQ
+          </StyledLink>
         </MenuItem>
       </Menu>
       <EnrollButton>Boka nu</EnrollButton>
@@ -53,8 +72,9 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled.div`
-  font-size: 1.5rem;
-  font-weight: bold;
+  img {
+    height: 70px;
+  }
 `;
 
 const MenuIcon = styled.div`
