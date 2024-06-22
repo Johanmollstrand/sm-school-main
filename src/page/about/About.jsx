@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import ReactTypingEffect from "react-typing-effect";
 import CountUp from "react-countup";
-import photo1 from "../../assets/imgs/anst1.jpeg";
+import photo1 from "../../assets/imgs/8m.png";
 import "./About.css";
 
 const About = () => {
@@ -21,6 +21,11 @@ const About = () => {
     },
     {
       name: "Nahwand Mamo",
+      photo: photo1,
+      social: { facebook: "#", twitter: "#", linkedin: "#" },
+    },
+    {
+      name: "Rizgar Mahmod",
       photo: photo1,
       social: { facebook: "#", twitter: "#", linkedin: "#" },
     },
