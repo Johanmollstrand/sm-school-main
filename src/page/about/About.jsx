@@ -34,18 +34,18 @@ const About = () => {
   const howItWorks = [
     {
       icon: <FaCogs />,
-      title: "Step 1",
-      description: "Description of how step 1 works.",
+      title: "Förtroende",
+      description: "Förtroende är nycklen till Möllstrands Trafikskolas framgång. Vi bygger starka relationer med kunder, partner, ägare och tillsynsmyndigheter genom en extremt hög etisk och moralisk standard.",
     },
     {
       icon: <FaRocket />,
-      title: "Step 2",
-      description: "Description of how step 2 works.",
+      title: "Säkerhet",
+      description: "Köra bil är roligt men medörs vissa risker, därför jobbar vi aktivt på Möllstrands Trafikskola för att identifiera risker i god tid och hur man undviker dem, ge konkreta råd och skapa en trygg inlärningsmiljö. ",
     },
     {
       icon: <FaChartLine />,
-      title: "Step 3",
-      description: "Description of how step 3 works.",
+      title: "Kundfokus",
+      description: "Vi sträver alltid efter långsiktiga kundrelationer och anpassa utbildningen efter dina behov.",
     },
   ];
 
@@ -90,19 +90,19 @@ const About = () => {
       {/* Numbers Section */}
       <div className="numbers-section">
         <div className="number">
-          <h3>Säkerhet</h3>
+          <h3>Kvalitet</h3>
           <p>
             <CountUp start={0} end={100} duration={3} />
           </p>
         </div>
         <div className="number">
-          <h3>Anpassad efter dina behov</h3>
+          <h3>Engagemang</h3>
           <p>
             <CountUp start={0} end={100} duration={3} />
           </p>
         </div>
         <div className="number">
-          <h3>Kvalite</h3>
+          <h3>Respekt</h3>
           <p>
             <CountUp start={0} end={100} duration={3} />
           </p>
