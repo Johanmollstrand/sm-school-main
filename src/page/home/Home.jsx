@@ -1,7 +1,7 @@
 import "./Home.css";
 import { FaBullseye, FaChartLine, FaHandsHelping } from "react-icons/fa";
 import heroVideo from "../../assets/imgs/vid1.mp4";
-import secondSectionImage from "../../assets/imgs/2s.jpeg";
+import secondSectionImage from "../../assets/imgs/2s.jpg";
 import gridSectionImage from "../../assets/imgs/2.png";
 import gridSectionImage2 from "../../assets/imgs/3.png";
 import TestimonialsSection from "../../components/TestimonialsSection";

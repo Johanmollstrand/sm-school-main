@@ -52,7 +52,7 @@ const Header = () => {
           </StyledLink>
         </MenuItem>
       </Menu>
-      <EnrollButton>Boka nu</EnrollButton>
+      
     </Nav>
   );
 };
@@ -62,8 +62,8 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #007bff;
-  color: white;
+  background-color: #ffa500;
+  color: #000;
   position: relative;
 
   @media (max-width: 768px) {
@@ -108,7 +108,7 @@ const MenuItem = styled.li`
 `;
 
 const StyledLink = styled(Link)`
-  color: white;
+  color: #000;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
 

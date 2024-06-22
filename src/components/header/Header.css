@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #0a31e0;
+  background-color: #7683ae;
 }
 
 .logo {
@@ -19,5 +19,7 @@
 
 .nav a {
   text-decoration: none;
-  color: #e4dfdf;
+  color: #000;
 }
+
+menuitem{}
