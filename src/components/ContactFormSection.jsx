@@ -53,6 +53,10 @@ const SectionTitle = styled.h2`
 const Form = styled.form`
   max-width: 600px;
   margin: 0 auto;
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+  }
 `;
 
 const FormGroup = styled.div`
@@ -63,6 +67,10 @@ const Label = styled.label`
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
+
+  @media (max-width: 480px) {
+    font-size: 0.875rem;
+  }
 `;
 
 const Input = styled.input`
@@ -73,6 +81,10 @@ const Input = styled.input`
 
   @media (max-width: 768px) {
     font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.4rem;
   }
 `;
 
@@ -85,6 +97,10 @@ const Textarea = styled.textarea`
   @media (max-width: 768px) {
     font-size: 1rem;
   }
+
+  @media (max-width: 480px) {
+    padding: 0.4rem;
+  }
 `;
 
 const SubmitButton = styled.button`
@@ -96,6 +112,17 @@ const SubmitButton = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1.2rem;
+
+  @media (max-width: 768px) {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
 
   &:hover {
     background-color: #0056b3;
