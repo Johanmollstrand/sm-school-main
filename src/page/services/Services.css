@@ -1,5 +1,3 @@
-/* Updated Services.css */
-
 :root {
   --main-color: #3283ba;
   --secondary-color: #16456c;
@@ -180,47 +178,10 @@
 .pricing-card .apply-button:hover {
   background: var(--button-hover-bg-color);
 }
-.services-slider {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  margin-bottom: 40px;
-}
-
-.services-slider .slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.services-slider .slide {
-  min-width: 50%; /* Adjust the width to make the photo smaller */
-  max-width: 10%; /* Adjust the width to make the photo smaller */
-  box-sizing: border-box;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.services-slider .slide img {
-  max-width: 50%;
-  height: auto;
-  border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .header h1 {
-    font-size: 2rem;
-  }
-
-  .card,
-  .pricing-card {
-    width: 100%;
-  }
-}
 
 .services-slider {
   display: flex;
+  justify-content: center;
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -234,4 +195,24 @@
   min-width: 100%;
   box-sizing: border-box;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-slider .slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .card,
+  .pricing-card {
+    width: 100%;
+  }
 }
