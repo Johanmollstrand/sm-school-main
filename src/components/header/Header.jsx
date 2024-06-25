@@ -25,6 +25,7 @@ const Header = () => {
       <MenuIcon onClick={toggleMenu}>
         <FaBars />
       </MenuIcon>
+      <h3>Tel: 072-298 24 57</h3>
       <Menu isOpen={isOpen}>
         <MenuItem>
           <StyledLink to="/" onClick={closeMenu}>
@@ -52,6 +53,7 @@ const Header = () => {
           </StyledLink>
         </MenuItem>
       </Menu>
+      
       
     </Nav>
   );
