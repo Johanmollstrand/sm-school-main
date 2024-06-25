@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
-import logo from "../../assets/imgs/möllstrands.svg";
+import logo from "../../assets/imgs/MOLLSTRANDS (1).svg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);

@@ -1,4 +1,15 @@
 /* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -15,6 +26,7 @@
   padding: 50px;
   text-align: center;
   width: 100%;
+  overflow: hidden; /* Add this line */
 }
 
 .hero-video {
@@ -49,8 +61,8 @@
 .hero-button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #ffa500;
-  color: #000;
+  background-color: rgba(181, 6, 6, 0.703);
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -58,7 +70,7 @@
 }
 
 .hero-button:hover {
-  background-color: #c5ac7e;
+  background-color: #0056b3;
 }
 
 /* Moving Line Section */
@@ -431,5 +443,57 @@
   }
   .third-section-title {
     padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .second-section-title {
+    font-size: 1.5rem;
+  }
+
+  .second-section-description {
+    font-size: 1rem;
+  }
+
+  .third-section-title {
+    font-size: 2rem;
+  }
+
+  .third-section-description {
+    font-size: 1rem;
+  }
+
+  .fourth-section-title {
+    font-size: 2rem;
+  }
+
+  .fourth-section-description {
+    font-size: 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .grid-section {
+    padding: 20px;
   }
 }
