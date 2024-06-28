@@ -41,7 +41,7 @@ const Home = () => {
         <div className="second-section-text">
           <h2 className="second-section-title">Är det dags att ta körkort?</h2>
           <p className="second-section-description"> Då kan du vara säker på att Möllstrands Trafikskola är rätt val för dig. Vi hjälper dig från första till sista steget för ditt körkort. Hos oss får du alltid bästa möjliga service. Vi erbjuder en omfattande utbildning för körkort behörighet B, inklusive Handledarkurser, Riskettan, Risk tvåan och Intensivkurser. Våra kompetenta och trevliga trafiklärare står redo att ta emot dig. Så varmt välkommen till oss!
-Våra erfarna och engagerade utbildare har en gedigen kunskap om trafiksäkerhet och pedagogik. De brinner för att hjälpa dig att nå dina mål och att du ska känna dig trygg och säker i trafiken. Vi erbjuder en personlig och individanpassad utbildning som tar hänsyn till dina behov och din inlärningsstil.
+
 
           </p>
         </div>
@@ -55,7 +55,7 @@ Våra erfarna och engagerade utbildare har en gedigen kunskap om trafiksäkerhet
         <div className="third-section-content">
           <h2 className="third-section-title">Därför bör du välja just Möllstrands Trafikskola</h2>
           <p className="third-section-description">
-          Erfarenheten har lärt oss hur viktigt det är att skapa engagemang och drivkraft hos vår personal för att kunna bli bäst på det vi gör. Dessutom har vår vilja att prestera sin grund i värderingar som har utvecklats över tid. Dessa värderingar har skapat en röd tråd som genomsyrar hela vår verksamhet. Det är precis denna sammanhängande kultur som utmärker vårt företag och som kontinuerligt får oss att växa och förbättra oss!
+          Våra erfarna och engagerade utbildare har en gedigen kunskap om trafiksäkerhet och pedagogik. De brinner för att hjälpa dig att nå dina mål och att du ska känna dig trygg och säker i trafiken. Vi erbjuder en personlig och individanpassad utbildning som tar hänsyn till dina behov och din inlärningsstil.
           </p>
         </div>
       </section>
@@ -86,7 +86,7 @@ Våra erfarna och engagerade utbildare har en gedigen kunskap om trafiksäkerhet
               <FaHandsHelping className="card-icon" />
               <h3 className="card-title">Engagemang</h3>
               <p className="card-description">
-              Vi levererar konsekvent högkvalitativ utbildning med fokus på individuella behov och inlärningsstilar.
+              Erfarna trafiklärare med eleven i fokus. Anpassar utbildning just efter dina behov. 
               </p>
             </div>
             <div className="card">

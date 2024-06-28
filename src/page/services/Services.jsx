@@ -67,7 +67,7 @@ const Services = () => {
         </div>
         <div className="card">
           <img src={CardImg2} alt="Road Safety Guide" />
-          <h3>Internsivkurs för bil</h3>
+          <h3>Intensivkurs för bil</h3>
           <p>
           Med start varje vecka året runt, boka din utbildning redan idag!
           </p>
@@ -107,9 +107,9 @@ const Services = () => {
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
-          <h3>Syntest</h3>
+          <h3>Risk Tvåan (Halkan)</h3>
           <p>
-          Kom in till oss på drop in så hjälper vi dig med syntestet till körkortstillståndet.
+          Riskutbildning del 2. Obligatorisk för alla elever som ska ta B-körkort.
           </p>
           <button className="button">Läs mer</button>
         </div>
