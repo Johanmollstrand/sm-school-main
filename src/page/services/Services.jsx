@@ -48,7 +48,7 @@ const Services = () => {
       </div>
 
       <div className="pricing-divider">
-        <h2>Utbildingar</h2>
+        <h2>Utbildningar</h2>
       </div>
 
       <motion.section
