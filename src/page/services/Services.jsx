@@ -135,7 +135,7 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
       >
         <div className="pricing-card">
-          <div className="price-banner">Silver paket</div>
+          <div className="price-banner">8 999kr</div>
           <h3>Silver paket</h3>
           <div className="details">
             <p>Teoripaket </p>
@@ -147,7 +147,7 @@ const Services = () => {
           <button className="apply-button">Boka nu</button>
         </div>
         <div className="pricing-card">
-          <div className="price-banner">Guld Paket</div>
+          <div className="price-banner">12 999kr</div>
           <h3>Guld paket</h3>
           <div className="details">
             <p>Teoripaket</p>
@@ -160,7 +160,7 @@ const Services = () => {
           <button className="apply-button">Boka nu</button>
         </div>
         <div className="pricing-card">
-          <div className="price-banner">Premium paket</div>
+          <div className="price-banner">15 999kr</div>
           <h3>Premium paket</h3>
           <div className="details">
             <p>Teoripaket</p>
