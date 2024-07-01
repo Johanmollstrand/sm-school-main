@@ -63,7 +63,7 @@ const Services = () => {
           <p>
           Vi erbjuder körkortsutbildning för både manuell och automatbil..
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg2} alt="Road Safety Guide" />
@@ -71,7 +71,7 @@ const Services = () => {
           <p>
           Med start varje vecka året runt, boka din utbildning redan idag!
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -79,7 +79,7 @@ const Services = () => {
           <p>
           Introduktionsutbildning för handledare och elev. På kvällar och helger.
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -87,7 +87,7 @@ const Services = () => {
           <p>
           Riskutbildning del 1. Obligatorisk för alla elever som ska ta B-körkort.
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -95,7 +95,7 @@ const Services = () => {
           <p>
           Plugga körkortsteori på elevcentralen. Anpassat för mobil, dator och surfplatta.
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -103,7 +103,7 @@ const Services = () => {
           <p>
           Komplett teorimaterial för din körkortsutbildning.
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -111,7 +111,7 @@ const Services = () => {
           <p>
           Riskutbildning del 2. Obligatorisk för alla elever som ska ta B-körkort.
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         <div className="card">
           <img src={CardImg3} alt="Driving License" />
@@ -119,7 +119,7 @@ const Services = () => {
           <p>
           Vi har lärare som talar olika språk, för dig som har lite svårt med svenska. 
           </p>
-          <button className="button">Läs mer</button>
+          
         </div>
         
       </motion.section>
@@ -144,7 +144,7 @@ const Services = () => {
             <p>Risktvåan (Halkan)</p>
             <p>Hyra av bil i samband med uppkörning</p>
           </div>
-          <button className="apply-button">Boka nu</button>
+          
         </div>
         <div className="pricing-card">
           <div className="price-banner">12 999kr</div>
@@ -157,7 +157,7 @@ const Services = () => {
             <p>Hyra av bil i samband med uppkörning
             </p>
           </div>
-          <button className="apply-button">Boka nu</button>
+          
         </div>
         <div className="pricing-card">
           <div className="price-banner">15 999kr</div>
@@ -169,7 +169,7 @@ const Services = () => {
             <p>Risktvåan (Halkan)</p>
             <p>Hyra av bil i samband med uppkörning</p>
           </div>
-          <button className="apply-button">Boka nu</button>
+          
         </div>
         <div className="pricing-card">
           <div className="price-banner">Prislista</div>
