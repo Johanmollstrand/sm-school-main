@@ -24,7 +24,7 @@ const Header = () => {
           <StyledLink to="/about">Om oss</StyledLink>
         </MenuItem>
         <MenuItem>
-          <StyledLink to="/services">Tjänster</StyledLink>
+          <StyledLink to="/services">Tjänster  </StyledLink>
         </MenuItem>
         <MenuItem>
           <StyledLink to="/contact">Kontakt</StyledLink>

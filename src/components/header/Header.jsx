@@ -39,7 +39,7 @@ const Header = () => {
         </MenuItem>
         <MenuItem>
           <StyledLink to="/services" onClick={closeMenu}>
-            Tjänster
+            Priser
           </StyledLink>
         </MenuItem>
         <MenuItem>

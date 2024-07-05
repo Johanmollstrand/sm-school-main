@@ -24,6 +24,7 @@ const Footer = () => {
         <NewsletterInput type="email" placeholder="Din e-mail" />
         <SignupButton>Skicka</SignupButton>
       </NewsletterSignup>
+      
     </FooterContainer>
   );
 };
