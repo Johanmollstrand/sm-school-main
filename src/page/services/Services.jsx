@@ -147,7 +147,7 @@ const Services = () => {
           
         </div>
         <div className="pricing-card">
-          <div className="price-banner">14 990ghgkr</div>
+          <div className="price-banner">14 899kr</div>
           <h3>Guld paket</h3>
           <div className="details">
             <p>Teoripaket</p>
@@ -158,7 +158,7 @@ const Services = () => {
           </div>
           
         </div>
-        <div className="pricing-card">
+        < className="pricing-card">
           <div className="price-banner">18 990kr</div>
           <h3>Premium paket</h3>
           <div className="details">
@@ -166,9 +166,8 @@ const Services = () => {
             <p>24 kör lektioner á 40 minuter</p>
             <p>Riskettan</p>
             <p>Risktvåan (Halkan)</p>
-           
+            </div>
           
-        </div>
         <div className="pricing-card">
           <div className="price-banner">Prislista</div>
           <h3>Våra priser</h3>
