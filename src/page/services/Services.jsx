@@ -135,40 +135,38 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
       >
         <div className="pricing-card">
-          <div className="price-banner">kr</div>
+          <div className="price-banner">9 900kr</div>
           <h3>Silver paket</h3>
           <div className="details">
             <p>Teoripaket </p>
             <p>8 Körlektioner á 40 minuter</p>
             <p>Riskettan</p>
             <p>Risktvåan (Halkan)</p>
-            <p>Hyra av bil i samband med uppkörning</p>
+            
           </div>
           
         </div>
         <div className="pricing-card">
-          <div className="price-banner">kr</div>
+          <div className="price-banner">14 899kr</div>
           <h3>Guld paket</h3>
           <div className="details">
             <p>Teoripaket</p>
             <p>16 kör lektioner á 40 minuter</p>
             <p>Riskettan</p>
             <p>Risktvåan (Halkan)</p>
-            <p>Hyra av bil i samband med uppkörning
-            </p>
+            
           </div>
           
         </div>
         <div className="pricing-card">
-          <div className="price-banner">kr</div>
+          <div className="price-banner">18 990kr</div>
           <h3>Premium paket</h3>
           <div className="details">
             <p>Teoripaket</p>
             <p>24 kör lektioner á 40 minuter</p>
             <p>Riskettan</p>
             <p>Risktvåan (Halkan)</p>
-            <p>Hyra av bil i samband med uppkörning</p>
-          </div>
+           
           
         </div>
         <div className="pricing-card">
@@ -182,7 +180,7 @@ const Services = () => {
             <p>​Riskutbildning 1 (Riskettan) 750: –</p>
             <p>Riskutbildning 2 (Halkan) 2300: –</p>
             <p>Uppkörningsavgift
-            ​Uppvärmningslektion & hyra av bil 1400:–</p>
+            ​Uppvärmningslektion & hyra av bil 1500:–</p>
           </div>
         
         </div>
