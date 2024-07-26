@@ -147,7 +147,7 @@ const Services = () => {
           
         </div>
         <div className="pricing-card">
-          <div className="price-banner">14 990kr</div>
+          <div className="price-banner">14 990ghgkr</div>
           <h3>Guld paket</h3>
           <div className="details">
             <p>Teoripaket</p>
