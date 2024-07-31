@@ -1,153 +1,141 @@
-import styled from "styled-components";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"; // Importing social media icons
+import React from "react";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <ContentWrapper>
-        <QuickLinks>
-          <FooterLink href="#">Vår Policy</FooterLink>
-          <FooterLink href="#">Vilkor</FooterLink>
-        </QuickLinks>
-        <CompanyInfo>
-          <InfoTitle>Företagsuppgifter</InfoTitle>
-          <InfoItem>Swish Nummer: 123 119 5338</InfoItem>
-          <InfoItem>Bankgiro: 560-3931</InfoItem>
-          <InfoItem>Org. nr: 559461-6228</InfoItem>
-        </CompanyInfo>
-        <SocialMedia>
-          <SocialMediaIcon href="https://www.facebook.com/people/M%C3%B6llstrands-Trafikskola/61559963756477/">
-            <FaFacebookF />
-          </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.tiktok.com/@mollstrandstrafikskola?_t=8nAcUzO8bA0&_r=1">
-            <FaTwitter />
-          </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.instagram.com">
-            <FaInstagram />
-          </SocialMediaIcon>
-        </SocialMedia>
-        <NewsletterSignup>
-          <NewsletterInput type="email" placeholder="Din e-mail" />
-          <SignupButton>Skicka</SignupButton>
-        </NewsletterSignup>
-      </ContentWrapper>
-    </FooterContainer>
+    <footer className="footer">
+      <div className="section">
+        <h4 className="heading">Villkor</h4>
+        <ul className="list">
+          <li className="listItem">
+            <a href="#" className="link">
+              GDPR – Integritetspolicy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="section">
+        <h4 className="heading">Om oss</h4>
+        <ul className="list">
+          <li className="listItem">
+            <a href="#" className="link">
+              Om oss
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Personal
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Gästbok
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Kontakta oss
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="section">
+        <h4 className="heading">Externa länkar</h4>
+        <ul className="list">
+          <li className="listItem">
+            <a href="#" className="link">
+              Transportstyrelsen
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Trafikverket
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Resurs Bank
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              STR körkort.nu
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="section">
+        <h4 className="heading">Våra tjänster</h4>
+        <ul className="list">
+          <li className="listItem">
+            <a href="#" className="link">
+              Delbetalning
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Erbjudande
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Intensivkurs bil
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Handledarutbildning
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Riskettan
+            </a>
+          </li>
+          <li className="listItem">
+            <a href="#" className="link">
+              Syntest
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="section">
+        <h4 className="heading">Företagsuppgifter</h4>
+        <address className="address">
+          Möllstrands Trafik Skola <br />
+          Hovslagarvägen 37 <br />
+          192 54 Sollentuna <br />
+          Tel:{" "}
+          <a href="tel:08964633" className="link">
+            08 – 96 46 33
+          </a>{" "}
+          <br />
+          Email:{" "}
+          <a href="mailto:info@stockholmtab.se" className="link">
+            info@stockholmtab.se
+          </a>{" "}
+          <br />
+          Swish: 1233570793 <br />
+          Bankgiro: 5805-4107 <br />
+          Org.nr: 559341-2082 <br />
+          Innehar F-skattebevis
+        </address>
+      </div>
+      <div className="socialMedia">
+        <a href="#" className="icon">
+          <FaFacebook />
+        </a>
+        <a href="#" className="icon">
+          <FaInstagram />
+        </a>
+        <a href="#" className="icon">
+          <FaTiktok />
+        </a>
+      </div>
+      <div className="copyRight">© Möllstrands Trafik Skola</div>
+    </footer>
   );
 };
-
-const FooterContainer = styled.footer`
-  padding: 2rem 1rem;
-  background-color: #343a40;
-  color: #f8f9fa;
-  display: flex;
-  justify-content: center;
-`;
-
-const ContentWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  width: 100%;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-`;
-
-const QuickLinks = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    margin-bottom: 1rem;
-  }
-`;
-
-const FooterLink = styled.a`
-  margin: 0.5rem 0;
-  color: #f8f9fa;
-  text-decoration: none;
-
-  &:hover {
-    color: #007bff;
-  }
-`;
-
-const CompanyInfo = styled.div`
-  text-align: center;
-`;
-
-const InfoTitle = styled.h4`
-  margin-bottom: 1rem;
-`;
-
-const InfoItem = styled.p`
-  margin: 0.25rem 0;
-`;
-
-const SocialMedia = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-
-  @media (max-width: 768px) {
-    margin-bottom: 1rem;
-  }
-`;
-
-const SocialMediaIcon = styled.a`
-  margin: 0 0.5rem;
-  color: #f8f9fa;
-  text-decoration: none;
-  font-size: 1.5rem;
-
-  &:hover {
-    color: #007bff;
-  }
-`;
-
-const NewsletterSignup = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-  }
-`;
-
-const NewsletterInput = styled.input`
-  padding: 0.5rem;
-  border: 1px solid #f8f9fa;
-  border-radius: 5px 0 0 5px;
-  background-color: #343a40;
-  color: #f8f9fa;
-
-  @media (max-width: 768px) {
-    border-radius: 5px;
-    margin-bottom: 1rem;
-  }
-`;
-
-const SignupButton = styled.button`
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 5px 5px 0;
-
-  @media (max-width: 768px) {
-    border-radius: 5px;
-  }
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
 
 export default Footer;
