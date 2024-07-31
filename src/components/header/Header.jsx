@@ -42,6 +42,13 @@ const Header = () => {
             Priser
           </StyledLink>
         </MenuItem>
+
+        <MenuItem>
+          <StyledLink to="/booking" onClick={closeMenu}>
+            Boka Nu
+          </StyledLink>
+        </MenuItem>
+
         <MenuItem>
           <StyledLink to="/contact" onClick={closeMenu}>
             Kontakt
@@ -53,8 +60,6 @@ const Header = () => {
           </StyledLink>
         </MenuItem>
       </Menu>
-      
-      
     </Nav>
   );
 };
