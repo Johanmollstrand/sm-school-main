@@ -103,22 +103,21 @@ const Footer = () => {
       <div className="section">
         <h4 className="heading">Företagsuppgifter</h4>
         <address className="address">
-          Möllstrands Trafik Skola <br />
-          Hovslagarvägen 37 <br />
-          192 54 Sollentuna <br />
+          Möllstrands Trafik Skola
+          <br />
           Tel:{" "}
           <a href="tel:08964633" className="link">
-            08 – 96 46 33
+            072-298 24 57
           </a>{" "}
           <br />
           Email:{" "}
-          <a href="mailto:info@stockholmtab.se" className="link">
-            info@stockholmtab.se
+          <a href="mailto:kontakt@mollstrands.com" className="link">
+            kontakt@mollstrands.com
           </a>{" "}
           <br />
-          Swish: 1233570793 <br />
-          Bankgiro: 5805-4107 <br />
-          Org.nr: 559341-2082 <br />
+          Swish: 123 119 5338 <br />
+          Bankgiro: 560-3931 <br />
+          Org.nr: 559461-6228 <br />
           Innehar F-skattebevis
         </address>
       </div>

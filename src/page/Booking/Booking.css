@@ -1,8 +1,12 @@
-/* Booking.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-form {
-  max-width: 600px;
-  margin: 0 auto;
+.booking-container {
+  max-width: 800px;
+  margin: 40px auto; /* Add margin to the container */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -34,7 +38,7 @@ textarea {
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #ffa500; /* Changed from #007bff to #ffa500 */
   color: white;
   border: none;
   border-radius: 5px;
@@ -43,5 +47,15 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #cc8400; /* Adjusted hover color for #ffa500 */
+}
+
+.booking-message {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
 }
