@@ -11,9 +11,9 @@ const Footer = () => {
         </QuickLinks>
         <CompanyInfo>
           <InfoTitle>Företagsuppgifter</InfoTitle>
-          <InfoItem>Swish Nummer: 123 456 7890</InfoItem>
+          <InfoItem>Swish Nummer: 123 119 5338</InfoItem>
           <InfoItem>Bankgiro: 560-3931</InfoItem>
-          <InfoItem>Org. nr: 123456-7890</InfoItem>
+          <InfoItem>Org. nr: 559461-6228</InfoItem>
         </CompanyInfo>
         <SocialMedia>
           <SocialMediaIcon href="https://www.facebook.com/people/M%C3%B6llstrands-Trafikskola/61559963756477/">
