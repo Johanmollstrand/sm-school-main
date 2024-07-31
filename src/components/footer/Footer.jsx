@@ -25,7 +25,7 @@ const Footer = () => {
       </NewsletterSignup>
       <CompanyInfo>
         <InfoTitle>Företagsuppgifter</InfoTitle>
-        <InfoItem>Swish Nummer: 123 456 7890</InfoItem>
+        <InfoItem>Swish Nummer: 123 119 5338</InfoItem>
         <InfoItem>Bankgiro: 123-4567</InfoItem>
         <InfoItem>Org. nr: 123456-7890</InfoItem>
       </CompanyInfo>
